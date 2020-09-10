@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-movie"
+    }
+  },
+  "defaultProject": "angular-movie",
+  "cli": {
+    "analytics": false
+  }
 }
