@@ -1,0 +1,50 @@
+.card {
+  box-shadow: 0px 3px 19px #0000000D;
+  border-radius: 5px;
+  border: none
+}
+
+.movie-img {
+  margin-top: -40px;
+}
+
+.card-title {
+  font-family: 'Bitter';
+  font-weight: bold;
+  font-size: 38px;
+  color: #FF4436;
+}
+
+.card-year {
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 20px;
+  color: #777777;
+}
+
+.card-director {
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 16px;
+  color: #CCCCCC;
+}
+
+.card-description {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 16px;
+  color: #777777;
+}
+
+.movie-info {
+  p {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    color: #CCCCCC;
+    span {
+      font-weight: bold;
+      color: #777777;
+    }
+  }
+}

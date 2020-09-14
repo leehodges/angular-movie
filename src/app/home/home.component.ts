@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
 
         this.movies = movies
       }
-      debugger
+
     }, error => {
       if (error) {
         console.log(error)
