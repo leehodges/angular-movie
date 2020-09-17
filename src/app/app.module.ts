@@ -34,6 +34,8 @@ import {HomeComponent} from './home/home.component';
 import {MovieService} from "./shared/services/movie.service";
 import {HttpClientModule} from "@angular/common/http";
 import { MovieCardComponent } from './home/movie-card/movie-card.component';
+import { SignupComponent } from './signup/signup.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -42,7 +44,8 @@ import { MovieCardComponent } from './home/movie-card/movie-card.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    MovieCardComponent
+    MovieCardComponent,
+    SignupComponent
   ],
 
 
@@ -51,7 +54,9 @@ import { MovieCardComponent } from './home/movie-card/movie-card.component';
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [
     MovieService
