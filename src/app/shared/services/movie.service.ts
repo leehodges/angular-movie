@@ -4,6 +4,7 @@ import {environment} from "../../../environments/environment";
 import {Observable} from "rxjs";
 import {Movie} from "../models/movie";
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -17,6 +18,7 @@ export class MovieService {
   }
 
   getAllMovies(): Observable<Movie[]> {
-    return this.http.get<Movie>(`${this.movieApi}/index`)
+    return this.http.get<Movie[]>(`${this.movieApi}/index`)
   }
 }
+
